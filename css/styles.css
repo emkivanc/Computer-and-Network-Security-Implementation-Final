@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #0D0F11;
+  font-family: 'Raleway', sans-serif;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #0D0F11;
+  line-height: 80px;
+}
+#area_1 {
+  width: 1080;
+  margin: auto;
+}
+#menu {
+  float: right;
+}
+#menu_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#menu a {
+  color: white;
+}
+#menu_bar a li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 350ms ease;
+}
+#menu a:hover li {
+  background-color: white;
+  color: #0D0F11;
+}
+header {
+  width: 100%;
+  height: 480px;
+  line-height: 480px;
+  font-size: 24pt;
+  color: white;
+  background-image: url('../img/back1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 2px black;
+  text-shadow: 0 2px 2px black;
+}
+section {
+  width: 1080px;
+  margin: auto;
+  min-height: 480px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #0D0F11;
+}
+.hr {
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, #0D0F11, #0D0F11, transparent);
+}
+input[type=text] {
+  width: 200px;
+  height: 25px;
+  text-indent: 10px;
+  background-color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid #eee;
+  border-left: 3px solid #141E27;
+  border-radius: 6px;
+  transition: 150ms ease;
+  
+}
+input[type=password] {
+  width: 200px;
+  height: 25px;
+  text-indent: 10px;
+  background-color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid #eee;
+  border-left: 3px solid #141E27;
+  border-radius: 6px;
+  transition: 150ms ease;
+}
+input[type=text]:focus {
+  outline: none;
+  border-left: 3px solid #FE7E6D;
+}
+input[type=password]:focus {
+  outline: none;
+  border-left: 3px solid #FE7E6D;
+}
+button {
+  width: 200px;
+  height: 40px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #141E27;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  transition: 150ms ease;
+}
+button:hover {
+  background-color: #203239;
+}
+button:active {
+  background-color: #FE7E6D;
+}
